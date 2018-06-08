@@ -1571,110 +1571,110 @@ on('change:class change:level change:paralyzeSaveMisc change:poisonSaveMisc chan
                 switch (parseInt(values.level)) {
                     case 1:
                         setAttrs({
-                            BaseAT: 10,
-                            Paralyze: 15-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 14-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 16-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 16-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 17-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 10,
+                            paralyzeSave: 15-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 14-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 16-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 16-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 17-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 2:
                     case 3:
                         setAttrs({
-                            BaseAT: 9,
-                            Paralyze: 14-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 13-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 15-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 15-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 16-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 9,
+                            paralyzeSave: 14-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 13-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 15-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 15-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 16-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 4:
                         setAttrs({
-                            BaseAT: 8,
-                            Paralyze: 13-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 12-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 14-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 14-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 15-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 8,
+                            paralyzeSave: 13-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 12-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 14-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 14-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 15-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 5:
                     case 6:
                         setAttrs({
-                            BaseAT: 7,
-                            Paralyze: 12-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 11-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 13-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 13-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 14-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 7,
+                            paralyzeSave: 12-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 11-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 13-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 13-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 14-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 7:
                         setAttrs({
-                            BaseAT: 6,
-                            Paralyze: 11-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 10-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 12-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 12-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 13-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 6,
+                            paralyzeSave: 11-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 10-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 12-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 12-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 13-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 8:
                     case 9:
                         setAttrs({
-                            BaseAT: 5,
-                            Paralyze: 10-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 9-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 11-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 11-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 12-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 5,
+                            paralyzeSave: 10-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 9-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 11-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 11-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 12-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 10:
                         setAttrs({
-                            BaseAT: 4,
-                            Paralyze: 9-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 8-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 10-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 10-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 11-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 4,
+                            paralyzeSave: 9-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 8-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 10-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 10-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 11-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 11:
                     case 12:
                         setAttrs({
-                            BaseAT: 3,
-                            Paralyze: 8-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 7-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 9-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 9-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 10-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 3,
+                            paralyzeSave: 8-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 7-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 9-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 9-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 10-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 13:
                         setAttrs({
-                            BaseAT: 2,
-                            Paralyze: 7-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 6-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 8-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 8-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 9-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 2,
+                            paralyzeSave: 7-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 6-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 8-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 8-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 9-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 14:
                         setAttrs({
-                            BaseAT: 1,
-                            Paralyze: 6-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 5-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 7-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 7-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 8-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 1,
+                            paralyzeSave: 6-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 5-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 7-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 7-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 8-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     default:
-                        setAttrs({ BaseAT: 20, Paralyze: 20, Poison: 20, Breath: 20, Device: 20, Magic: 20 });
+                        setAttrs({ attackthrow: 20, paralyzeSave: 20, poisonSave: 20, breathSave: 20, deviceSave: 20, magicSave: 20 });
                 }
                 break; 
             case "MAGE":
@@ -1689,63 +1689,63 @@ on('change:class change:level change:paralyzeSaveMisc change:poisonSaveMisc chan
                     case 2:
                     case 3:
                         setAttrs({
-                            BaseAT: 10,
-                            Paralyze: 13-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 13-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 15-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 11-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 12-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 10,
+                            paralyzeSave: 13-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 13-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 15-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 11-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 12-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 4:
                     case 5:
                     case 6:
                         setAttrs({
-                            BaseAT: 9,
-                            Paralyze: 12-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 12-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 14-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 10-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 11-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 9,
+                            paralyzeSave: 12-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 12-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 14-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 10-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 11-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 7:
                     case 8:
                     case 9:
                         setAttrs({
-                            BaseAT: 8,
-                            Paralyze: 11-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 11-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 13-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 9-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 10-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 8,
+                            paralyzeSave: 11-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 11-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 13-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 9-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 10-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 10:
                     case 11:
                     case 12:
                         setAttrs({
-                            BaseAT: 7,
-                            Paralyze: 10-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 10-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 12-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 8-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 9-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 7,
+                            paralyzeSave: 10-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 10-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 12-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 8-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 9-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 13:
                     case 14:
                         setAttrs({
-                            BaseAT: 6,
-                            Paralyze: 9-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 9-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 11-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 7-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 8-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 6,
+                            paralyzeSave: 9-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 9-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 11-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 7-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 8-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     default:
-                        setAttrs({ BaseAT: 20, Paralyze: 20, Poison: 20, Breath: 20, Device: 20, Magic: 20 });
+                        setAttrs({ attackthrow: 20, paralyzeSave: 20, poisonSave: 20, breathSave: 20, deviceSave: 20, magicSave: 20 });
                 }
                 break;
             case "CLERIC":
@@ -1761,83 +1761,83 @@ on('change:class change:level change:paralyzeSaveMisc change:poisonSaveMisc chan
                     case 1:
                     case 2:
                         setAttrs({
-                            BaseAT: 10,
-                            Paralyze: 13-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 10-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 16-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 13-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 15-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 10,
+                            paralyzeSave: 13-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 10-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 16-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 13-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 15-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 3:
                     case 4:
                         setAttrs({
-                            BaseAT: 9,
-                            Paralyze: 12-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 9-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 15-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 12-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 14-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 9,
+                            paralyzeSave: 12-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 9-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 15-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 12-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 14-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 5:
                     case 6:
                         setAttrs({
-                            BaseAT: 8,
-                            Paralyze: 11-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 8-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 14-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 11-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 13-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 8,
+                            paralyzeSave: 11-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 8-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 14-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 11-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 13-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 7:
                     case 8:
                         setAttrs({
-                            BaseAT: 7,
-                            Paralyze: 10-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 7-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 13-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 10-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 12-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 7,
+                            paralyzeSave: 10-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 7-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 13-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 10-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 12-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
 
                     case 9:
                     case 10:
                         setAttrs({
-                            BaseAT: 6,
-                            Paralyze: 9-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 6-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 12-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 9-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 11-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 6,
+                            paralyzeSave: 9-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 6-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 12-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 9-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 11-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 11:
                     case 12:
                         setAttrs({
-                            BaseAT: 5,
-                            Paralyze: 8-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 5-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 11-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 8-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 10-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 5,
+                            paralyzeSave: 8-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 5-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 11-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 8-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 10-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 13:
                     case 14:
                         setAttrs({
-                            BaseAT: 4,
-                            Paralyze: 7-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 4-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 10-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 7-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 9-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 4,
+                            paralyzeSave: 7-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 4-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 10-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 7-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 9-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     default:
-                        setAttrs({ BaseAT: 20, Paralyze: 20, Poison: 20, Breath: 20, Device: 20, Magic: 20 });
+                        setAttrs({ attackthrow: 20, paralyzeSave: 20, poisonSave: 20, breathSave: 20, deviceSave: 20, magicSave: 20 });
                 }
                 break;
             case "THIEF":
@@ -1856,88 +1856,88 @@ on('change:class change:level change:paralyzeSaveMisc change:poisonSaveMisc chan
                     case 1:
                     case 2:
                         setAttrs({
-                            BaseAT: 10,
-                            Paralyze: 13-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 13-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 16-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 14-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 15-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 10,
+                            paralyzeSave: 13-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 13-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 16-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 14-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 15-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 3:
                     case 4:
                         setAttrs({
-                            BaseAT: 9,
-                            Paralyze: 12-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 12-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 15-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 13-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 14-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 9,
+                            paralyzeSave: 12-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 12-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 15-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 13-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 14-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 5:
                     case 6:
                         setAttrs({
-                            BaseAT: 8,
-                            Paralyze: 11-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 11-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 14-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 12-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 13-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 8,
+                            paralyzeSave: 11-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 11-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 14-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 12-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 13-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 7:
                     case 8:
                         setAttrs({
-                            BaseAT: 7,
-                            Paralyze: 10-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 10-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 13-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 11-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 12-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 7,
+                            paralyzeSave: 10-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 10-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 13-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 11-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 12-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
 
                     case 9:
                     case 10:
                         setAttrs({
-                            BaseAT: 6,
-                            Paralyze: 9-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 9-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 12-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 10-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 11-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 6,
+                            paralyzeSave: 9-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 9-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 12-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 10-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 11-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 11:
                     case 12:
                         setAttrs({
-                            BaseAT: 5,
-                            Paralyze: 8-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 8-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 11-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 9-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 10-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 5,
+                            paralyzeSave: 8-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 8-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 11-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 9-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 10-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     case 13:
                     case 14:
                         setAttrs({
-                            BaseAT: 4,
-                            Paralyze: 7-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
-                            Poison: 7-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
-                            Breath: 10-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
-                            Device: 8-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
-                            Magic: 9-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
+                            attackthrow: 4,
+                            paralyzeSave: 7-parseInt(values.paralyzeSaveMisc)-parseInt(values.wisdomMod),
+                            poisonSave: 7-parseInt(values.poisonSaveMisc)-parseInt(values.wisdomMod),
+                            breathSave: 10-parseInt(values.breathSaveMisc)-parseInt(values.wisdomMod),
+                            deviceSave: 8-parseInt(values.deviceSaveMisc)-parseInt(values.wisdomMod),
+                            magicSave: 9-parseInt(values.magicSaveMisc)-parseInt(values.wisdomMod)
                         });
                         break;
                     default:
-                        setAttrs({ BaseAT: 20, Paralyze: 20, Poison: 20, Breath: 20, Device: 20, Magic: 20 });
+                        setAttrs({ attackthrow: 20, paralyzeSave: 20, poisonSave: 20, breathSave: 20, deviceSave: 20, magicSave: 20 });
                 }
                 break;
             default: 
                 //NO PROGRESSION
-                setAttrs({ BaseAT: 20, Paralyze: 20, Poison: 20, Breath: 20, Device: 20, Magic: 20 });
+                setAttrs({ attackthrow: 20, paralyzeSave: 20, poisonSave: 20, breathSave: 20, deviceSave: 20, magicSave: 20 });
         }
         //Change Fight Progression trickster(atk thief) gladiator (atk monster) Priest/ess Witch (atk mage)
         switch (values.class.toUpperCase()) {
@@ -1946,40 +1946,40 @@ on('change:class change:level change:paralyzeSaveMisc change:poisonSaveMisc chan
                 //Monster Progression
                 switch (parseInt(values.level)) {
                     case 1:
-                        setAttrs({ BaseAT: 10 });
+                        setAttrs({ attackthrow: 10 });
                         break;
                     case 2:
-                        setAttrs({ BaseAT: 9 });
+                        setAttrs({ attackthrow: 9 });
                         break;
                     case 3:
-                        setAttrs({ BaseAT: 8 });
+                        setAttrs({ attackthrow: 8 });
                         break;
                     case 4:
-                        setAttrs({ BaseAT: 7 });
+                        setAttrs({ attackthrow: 7 });
                         break;
                     case 5:
-                        setAttrs({ BaseAT: 6 });
+                        setAttrs({ attackthrow: 6 });
                         break;
                     case 6:
-                        setAttrs({ BaseAT: 5 });
+                        setAttrs({ attackthrow: 5 });
                         break;
                     case 7:
-                        setAttrs({ BaseAT: 4 });
+                        setAttrs({ attackthrow: 4 });
                         break;
                     case 8:
                     case 9:
-                        setAttrs({ BaseAT: 3 });
+                        setAttrs({ attackthrow: 3 });
                         break;
                     case 10:
                     case 11:
-                        setAttrs({ BaseAT: 2 });
+                        setAttrs({ attackthrow: 2 });
                         break;
                     case 12:
                     case 13:
-                        setAttrs({ BaseAT: 1 });
+                        setAttrs({ attackthrow: 1 });
                         break;
                     case 14:
-                        setAttrs({ BaseAT: 0 });
+                        setAttrs({ attackthrow: 0 });
                         break;
                     default:
                         //DONT DO A DAMN THING
@@ -1994,26 +1994,26 @@ on('change:class change:level change:paralyzeSaveMisc change:poisonSaveMisc chan
                     case 1:
                     case 2:
                     case 3:
-                        setAttrs({ BaseAT: 10 });
+                        setAttrs({ attackthrow: 10 });
                         break;
                     case 4:
                     case 5:
                     case 6:
-                        setAttrs({ BaseAT: 9 });
+                        setAttrs({ attackthrow: 9 });
                         break;
                     case 7:
                     case 8:
                     case 9:
-                        setAttrs({ BaseAT: 8 });
+                        setAttrs({ attackthrow: 8 });
                         break;
                     case 10:
                     case 11:
                     case 12:
-                        setAttrs({ BaseAT: 7 });
+                        setAttrs({ attackthrow: 7 });
                         break;
                     case 13:
                     case 14:
-                        setAttrs({ BaseAT: 6 });
+                        setAttrs({ attackthrow: 6 });
                         break;
                     default:
                     //DONT DO A DAMN THING
@@ -2025,31 +2025,31 @@ on('change:class change:level change:paralyzeSaveMisc change:poisonSaveMisc chan
                 switch (parseInt(values.level)) {
                     case 1:
                     case 2:
-                        setAttrs({ BaseAT: 10 });
+                        setAttrs({ attackthrow: 10 });
                         break;
                     case 3:
                     case 4:
-                        setAttrs({ BaseAT: 9 });
+                        setAttrs({ attackthrow: 9 });
                         break;
                     case 5:
                     case 6:
-                        setAttrs({ BaseAT: 8 });
+                        setAttrs({ attackthrow: 8 });
                         break;
                     case 7:
                     case 8:
-                        setAttrs({ BaseAT: 7 });
+                        setAttrs({ attackthrow: 7 });
                         break;
                     case 9:
                     case 10:
-                        setAttrs({ BaseAT: 6 });
+                        setAttrs({ attackthrow: 6 });
                         break;
                     case 11:
                     case 12:
-                        setAttrs({ BaseAT: 5 });
+                        setAttrs({ attackthrow: 5 });
                         break;
                     case 13:
                     case 14:
-                        setAttrs({ BaseAT: 4 });
+                        setAttrs({ attackthrow: 4 });
                         break;
                     default:
                     //DONT DO A DAMN THING
