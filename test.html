@@ -307,6 +307,7 @@
                     <input class="sheet-hide-it sheet-finessecheck" type="checkbox" name="attr_weapontype" value="3">
                     <select name="attr_weapondamage" class="sheet-no-border sheet-damage">
                         <option value="1d2" >1d2</option>
+                        <option value="1d3" >1d3</option>
                         <option value="1d4">1d4</option>
                         <option value="1d6" selected>1d6</option>
                         <option value="1d8" >1d8</option>
@@ -981,7 +982,7 @@
             {{/rollGreater() skillthrow target}}
         {{/skillthrow}}
         {{#spell}}
-            <tr><td  colspan="2" class="sheet-subheader">{{caster}} {{level}} Spell</td></tr>
+            <tr><td  colspan="2" class="sheet-subheader">Level {{level}} {{caster}} Spell</td></tr>
             <tr><th colspan="2">{{name}}</th></tr>
             <tr class="sheet-spellrow"><td><span class="sheet-tcat">Duration: </span>{{duration}}</td>
             <td><span class="sheet-tcat">Range: </span>{{range}}</td></tr>
